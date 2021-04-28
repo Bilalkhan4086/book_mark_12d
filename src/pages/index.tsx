@@ -53,7 +53,8 @@ const IndexPage:React.FC = () => {
   const [UpdateValUrl, setUpdateValUrl] = React.useState('');
   const [UpdateId, setUpdateId] = React.useState('');
 const [UpdateValDesc, setUpdateValDesc] = React.useState('')
-  // delete Handler
+  
+// delete Handler
 
   const deleteHandler = (id) => {
     delete_todo({
